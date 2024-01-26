@@ -3,8 +3,9 @@ export const AdultCourses = () => {
     <>
       <ul>
         <li>Англійська мова</li>
-        <li>Українська мова</li>
+
         <li>IT</li>
+        <li>Українська мова</li>
       </ul>
     </>
   );

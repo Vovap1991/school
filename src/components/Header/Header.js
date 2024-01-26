@@ -4,8 +4,8 @@ import { HeaderWrapper, NavList, AddressList, Nav } from './Header.styled';
 export const Header = () => {
   return (
     <HeaderWrapper>
+      <NavLink to="/">Sonder</NavLink>
       <Nav>
-        <NavLink to="/">Logo</NavLink>
         <NavList>
           <li>
             <NavLink to="/">Головна</NavLink>
