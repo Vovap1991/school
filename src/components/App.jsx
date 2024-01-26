@@ -1,14 +1,16 @@
-import { Courses } from './Courses/Courses';
-import { Header } from './Header/Header';
-import { Hero } from './Hero/Hero';
+import { Route, Routes } from 'react-router-dom';
+
+import { SharedLayout } from 'components/SharedLayout/SharedLayout';
+import HomePage from 'Pages/HomePage/HomePage';
 
 export const App = () => {
   return (
-    <div>
-      <Header />
-      <hr />
-      <Hero />
-      <Courses />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<HomePage />} />
+        </Route>
+      </Routes>
+    </>
   );
 };

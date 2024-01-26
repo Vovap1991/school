@@ -15,11 +15,13 @@ export const Header = () => {
           <li>
             <a href="/">Головна</a>
           </li>
+
           <li>
-            <a href="">Курси</a>
+            <a href="/">Курси</a>
           </li>
+
           <li>
-            <a href="">Контакти</a>
+            <a href="/">Контакти</a>
           </li>
         </NavList>
       </Nav>
@@ -30,6 +32,7 @@ export const Header = () => {
               panchenkotravel@gmail.com
             </a>
           </li>
+
           <li>
             <a href="tel:+380634320878">+38 (063) 432 08 78</a>
           </li>
