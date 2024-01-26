@@ -1,17 +1,11 @@
 import { NavLink } from 'react-router-dom';
-import {
-  HeaderWrapper,
-  NavList,
-  AddressList,
-  Nav,
-  CompName,
-} from './Header.styled';
+import { HeaderWrapper, NavList, AddressList, Nav } from './Header.styled';
 
 export const Header = () => {
   return (
     <HeaderWrapper>
       <Nav>
-        <CompName href="/">Logo</CompName>
+        <NavLink to="/">Logo</NavLink>
         <NavList>
           <li>
             <NavLink to="/">Головна</NavLink>

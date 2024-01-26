@@ -12,9 +12,9 @@ export const Nav = styled.div`
   flex-direction: row;
 `;
 
-export const CompName = styled.a`
-  margin-right: 40px;
-`;
+// export const CompName = styled.a`
+//   margin-right: 40px;
+// `;
 
 export const NavList = styled.ul`
   display: flex;

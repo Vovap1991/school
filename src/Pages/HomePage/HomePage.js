@@ -1,11 +1,11 @@
-import { Courses } from 'components/Courses/Courses';
+import { CallBack } from 'components/CallBack/CallBack';
 import { Hero } from 'components/Hero/Hero';
 
 const HomePage = () => {
   return (
     <>
       <Hero />
-      <Courses />
+      <CallBack />
     </>
   );
 };
