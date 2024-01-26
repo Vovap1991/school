@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import {
   HeaderWrapper,
   NavList,
@@ -13,11 +14,11 @@ export const Header = () => {
         <CompName href="/">Logo</CompName>
         <NavList>
           <li>
-            <a href="/">Головна</a>
+            <NavLink to="/">Головна</NavLink>
           </li>
 
           <li>
-            <a href="/">Курси</a>
+            <NavLink to="courses">Курси</NavLink>
           </li>
 
           <li>

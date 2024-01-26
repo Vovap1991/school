@@ -1,20 +1,31 @@
-import {
-  CoursesList,
-  CoursesListItem,
-  CoursesListItemLink,
-  CoursesTitle,
-} from './Courses.styled';
+import { CoursesList, CoursesListItem, CoursesTitle } from './Courses.styled';
 
-export const Courses = () => {
+export const Courses = ({ setShowChildrenCourses, setShowAdultCourses }) => {
   return (
     <section>
       <CoursesTitle>Наші курси</CoursesTitle>
       <CoursesList>
         <CoursesListItem>
-          <CoursesListItemLink href="">Для дітей</CoursesListItemLink>
+          <button
+            type="button"
+            onClick={() => {
+              setShowChildrenCourses(true);
+              setShowAdultCourses(false);
+            }}
+          >
+            Для дітей
+          </button>
         </CoursesListItem>
         <CoursesListItem>
-          <CoursesListItemLink href="">Для дорослих</CoursesListItemLink>
+          <button
+            type="button"
+            onClick={() => {
+              setShowAdultCourses(true);
+              setShowChildrenCourses(false);
+            }}
+          >
+            Для дорослих
+          </button>
         </CoursesListItem>
       </CoursesList>
     </section>

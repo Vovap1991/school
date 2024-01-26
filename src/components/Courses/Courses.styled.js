@@ -21,10 +21,3 @@ export const CoursesListItem = styled.li`
   border: 1px solid red;
   border-radius: 12px;
 `;
-
-export const CoursesListItemLink = styled.li`
-  text-decoration: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-`;
